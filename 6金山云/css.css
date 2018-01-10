@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.banxin{
+    margin: 0 auto;
+    width: 1000px;
+}
+/*头部 B*/
+.header{
+    height: 34px;
+    background-color: #DC353B;
+}
+
+.header .banxin li{
+    display: inline-block;
+    line-height: 34px;
+    float: right;
+    padding: 0 17px;
+}
+.header .banxin li a{
+    color: white;
+}
+.header .banxin li a:hover{
+    border: 1px solid white ;
+    padding: 
+    border-radius: 10px;
+}
+/*头部 E*/
+
+/*导航 B*/
+.nav{
+    height: 68px;
+    width: 100%
+    background-color: #D9DEF1;
+}
+.nav .banxin{
+    height: 68px;
+}
+
+.nav .banxin .logo{
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.nav .banxin li{
+    display: inline-block;
+    line-height: 68px;
+    float: right;
+    padding-left: 48px;
+}
+
+.nav .banxin li a{
+    color: #333333;
+}
+
+.nav .banxin li a:hover{
+    color: #DC353B;
+}
+/*导航 E*/
+
+
+.nav-b{
+    height: 1px;
+    width: 100%
+    color: black;
+}
+
+
+
+/*展示栏 B*/
+
+.show{
+    height: 652px;
+    background: url("images/12.png") no-repeat 100%;
+    /*background-color: blue;*/
+}
+.show .p1{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+
+}
+.show .p2{
+    position: absolute;
+    left: 610px;
+    top: 10px;
+}
+.show-banxin{
+    margin: 0 auto;
+        /*background-color: black;*/
+}
